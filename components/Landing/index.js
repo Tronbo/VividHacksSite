@@ -1,5 +1,6 @@
 import styles from "./landing.module.css";
 import Svg from "../../public/logo.svg";
+import Countdown from "../countdown/";
 
 const Landing = () => {
   return (
@@ -28,6 +29,7 @@ const Landing = () => {
         />
         <div className={styles.line} />
       </div>
+      <Countdown />
     </div>
   );
 };
