@@ -31,15 +31,15 @@ const Countdown = () => {
       </div>
       <div className={styles.box}>
         <p className={styles.timerText}>{hour}</p>
-        <p className={styles.placeholder}>hours</p>
+        <p className={styles.placeholder}>Hours</p>
       </div>
       <div className={styles.box}>
         <p className={styles.timerText}>{min}</p>
-        <p className={styles.placeholder}>minutes</p>
+        <p className={styles.placeholder}>Minutes</p>
       </div>
       <div className={styles.box}>
         <p className={styles.timerText}>{sec}</p>
-        <p className={styles.placeholder}>seconds</p>
+        <p className={styles.placeholder}>Seconds</p>
       </div>
     </div>
   );
