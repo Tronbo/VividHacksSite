@@ -4,6 +4,16 @@
   align-items: center;
 }
 
+.gradient {
+  background: rgba(21, 118, 253, 0.31);
+  filter: blur(455px);
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  /* z-index: ; */
+  left: 0;
+}
+
 .heading {
   font-weight: bolder;
   width: max-content;

@@ -4,6 +4,8 @@ import About from "../components/About";
 import Timeline from "../components/Timeline";
 import Sponsors from "../components/Sponsors";
 import Team from "../components/Team";
+import TeamGrid from "../components/TeamGrid";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <Timeline />
       <Sponsors />
       <Team />
+      <TeamGrid />
+      <Footer />
     </>
   );
 }
