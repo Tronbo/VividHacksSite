@@ -1,10 +1,11 @@
 import earth from "../../public/earth.png";
 import styles from "./about.module.css";
+import { Link as sLink } from 'react-scroll';
 
 const About = () => {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="about">
         <h2 className={styles.heading}>What is Vivid Hacks?</h2>
         <div className={styles.wrapper}>
           <img src={earth.src} alt="earth.png" className={styles.earth} />

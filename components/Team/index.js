@@ -2,7 +2,7 @@ import styles from "./team.module.css";
 
 const Team = () => {
   return (
-    <div className={styles.container}>
+    <div id="team" className={styles.container}>
       <div className={styles.gradient} />
       <h3 className={styles.heading}>MEET OUR TEAM</h3>
 
