@@ -29,8 +29,8 @@ const team = [
   },
   {
     post: "Organiser",
-    name: "ABC",
-    img: "https://images.unsplash.com/photo-1574786201468-574f3151871e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=803&q=80",
+    name: "Rajan Agarwal",
+    img: "https://images.unsplash.com/photo-1629163955193-be609ed15065?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
   },
 ];
 const Tg = () => {
